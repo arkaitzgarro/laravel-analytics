@@ -2,9 +2,9 @@
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Spatie\Analytics\Analytics;
-use Spatie\Analytics\AnalyticsClient;
-use Spatie\Analytics\Period;
+use AG\Analytics\Analytics;
+use AG\Analytics\AnalyticsClient;
+use AG\Analytics\Period;
 
 beforeEach(function () {
     $this->analyticsClient = Mockery::mock(AnalyticsClient::class);

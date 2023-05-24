@@ -17,7 +17,7 @@ Here are a few examples of the provided methods:
 
 ```php
 use Analytics;
-use Spatie\Analytics\Period;
+use AG\Analytics\Period;
 
 //fetch the most visited pages for today and the past week
 Analytics::fetchMostVisitedPages(Period::days(7));

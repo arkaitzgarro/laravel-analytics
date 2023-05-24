@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-analytics",
+    "name": "arkaitzgarro/laravel-analytics",
     "description": "A Laravel package to retrieve Google Analytics data.",
     "keywords": [
         "spatie",
@@ -9,7 +9,7 @@
         "reports",
         "laravel"
     ],
-    "homepage": "https://github.com/spatie/laravel-analytics",
+    "homepage": "https://github.com/arkaitzgarro/laravel-analytics",
     "license": "MIT",
     "authors": [
         {
@@ -36,22 +36,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Analytics\\": "src"
+            "AG\\Analytics\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Analytics\\AnalyticsServiceProvider"
+                "AG\\Analytics\\AnalyticsServiceProvider"
             ],
             "aliases": {
-                "Analytics": "Spatie\\Analytics\\AnalyticsFacade"
+                "Analytics": "AG\\Analytics\\AnalyticsFacade"
             }
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Analytics\\Tests\\": "tests"
+            "AG\\Analytics\\Tests\\": "tests"
         }
     },
     "config": {
