@@ -11,6 +11,6 @@ class AnalyticsFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'laravel-analytics';
+        return 'laravel-analytics-legacy';
     }
 }

@@ -11,7 +11,7 @@ class AnalyticsServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('laravel-analytics')
+            ->name('laravel-analytics-legacy')
             ->hasConfigFile();
     }
 
@@ -33,7 +33,7 @@ class AnalyticsServiceProvider extends PackageServiceProvider
             return new Analytics($client, $analyticsConfig['view_id']);
         });
 
-        $this->app->alias(Analytics::class, 'laravel-analytics');
+        $this->app->alias(Analytics::class, 'laravel-analytics-legacy');
     }
 
     protected function guardAgainstInvalidConfiguration(array $analyticsConfig = null): void
