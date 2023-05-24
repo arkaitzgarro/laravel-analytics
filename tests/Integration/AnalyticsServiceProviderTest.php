@@ -2,7 +2,7 @@
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Storage;
-use Spatie\Analytics\Exceptions\InvalidConfiguration;
+use AG\Analytics\Exceptions\InvalidConfiguration;
 
 uses(\Spatie\Analytics\Tests\Integration\TestCase::class);
 

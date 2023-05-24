@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Analytics\Tests\Integration;
+namespace AG\Analytics\Tests\Integration;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Analytics\AnalyticsFacade;
-use Spatie\Analytics\AnalyticsServiceProvider;
+use AG\Analytics\AnalyticsFacade;
+use AG\Analytics\AnalyticsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

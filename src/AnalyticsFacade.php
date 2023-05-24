@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Analytics;
+namespace AG\Analytics;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Analytics;
+namespace AG\Analytics;
 
-use Spatie\Analytics\Exceptions\InvalidConfiguration;
+use AG\Analytics\Exceptions\InvalidConfiguration;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
