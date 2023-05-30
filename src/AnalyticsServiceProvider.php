@@ -18,13 +18,13 @@ class AnalyticsServiceProvider extends PackageServiceProvider
     public function registeringPackage(): void
     {
         $this->app->bind(AnalyticsClient::class, function () {
-            $analyticsConfig = config('analytics');
+            $analyticsConfig = config('analytics-legacy');
 
             return AnalyticsClientFactory::createForConfig($analyticsConfig);
         });
 
         $this->app->bind(Analytics::class, function () {
-            $analyticsConfig = config('analytics');
+            $analyticsConfig = config('analytics-legacy');
 
             $this->guardAgainstInvalidConfiguration($analyticsConfig);
 
